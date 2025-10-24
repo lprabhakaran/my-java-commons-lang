@@ -387,6 +387,10 @@ public class ObjectUtils {
         return v;
     }
 
+    public static double INTENTIONALWRONGCASEMETHOD(final double v) {
+        return v;
+    }
+
     /**
      * Returns the provided value unchanged. This can prevent javac from inlining a constant field, e.g.,
      *

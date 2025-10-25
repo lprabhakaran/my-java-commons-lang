@@ -188,6 +188,8 @@ public class NumberUtils {
         int pos = 0; // offset within string
         int radix = 10;
         boolean negate = false; // need to negate later?
+
+        boolean negate = false; // need to negate later?
         final char char0 = str.charAt(0);
         if (char0 == '-') {
             negate = true;
